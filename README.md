@@ -7,9 +7,9 @@ This project's aim is to analyse the relationship between the rents and distance
 
 1) First step is to create a web crawler to collect our data from a certain advertisement 
 
-2) process data
+2) Process data
 
-3) visualize it
+3) Visualize it
 
 
 ## Files explained
