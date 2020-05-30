@@ -3,7 +3,7 @@
 ## About the project
 This is a project for a subject Data processing in Python at Institute of Economic Studies Charles University.
 
-This project's aim is to analyse the relationship between the rents and distance from metro station.
+This project's aim is to analyse the relationship between the rents and and various aspects (such as adress or closeness to "Cukrárna").
 
 1) First step is to create a web crawler to collect our data from a certain advertisement 
 
@@ -23,6 +23,9 @@ This is a object oriented crawler that can scrape sreality.cz for links of prope
 ### Data_understanding_and_processing.ipynd
 This is a jupyter notebook designed to aid our understanding of the dataset and do initial processing of the data.
 
+### Visualisation.ipynd
+This file takes the prepared data and visualize its various underlying relationships (with usual matplotlib tools as well as with geospatial tools).
+
 Work in progress...
 
 ### links__.__.___.csv - files
@@ -37,14 +40,16 @@ It was a test file to see that our data are written without any errors. It is di
 ### datasetview.csv
 Helps to show all variables and some values. It is used to better understand the dataset. It is dispensable (May be deleted).
 
+### TMMESTSKECASTI_P.json
+This is a json file with the geometry information about Prague districts.
+
 
 ## To - do
 
 <ul>
-    <li> Continue working in Data_understandign_and_processing </li>
-    <li> Settle on relationship that we can visualize </li>
-    <li> How can we get a Prague map in geopandas </li>
-    <li> Understand wheater we can plot address with geopandas (if not, we have to use google maps api to convert address to coordinates)</li>
+    <li> Finish the (B) part of visualizations. [Markéta] </li>
+    <li> We have couple of proposed visualizitaions in the part (A), now it needs to be discussed (what do we really want to focus on, maybe we can skip some boring parts, or on the other hand decide to go more in depth in some parts... [during the Thuesday call] </li>
+    <li> As soon as we discuss the above, the finalization phase comes - we need to tidy up the descriptions in the Visualization file. [together till Thursday] </li>
 </ul>
 <br>
 <footer>
