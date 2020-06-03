@@ -1,19 +1,34 @@
 # realestate_metro
 
 ## About the project
-This is a project for a subject Data processing in Python at Institute of Economic Studies Charles University.
 
-This project's aim is to analyse the relationship between the rents and and various aspects (such as adress or closeness to "Cukrárna").
+This is project for a course Data This is a project for a subject Data processing in Python at Institute of Economic Studies Charles University.
 
-1) First step is to create a web crawler to collect our data from a certain advertisement 
+Our task was to scrape data using API, process the data, visualise it and submit a github repository, while colaborating over git.
 
-2) Process data
+This is a project created by Marketa Mala & Josef Svec.
 
-3) Visualize it
+In this project we decided to look at realestate data from sreality.cz
+ 
+<ul>
+    <li>First we created a file spider.ipynd. This file is merely a pithc and does not have a direct effect on the data collection and processing. </li>
+    <li> OPP_spider download a dataset from a dynamic webpages of sreality.cz (This is done in OOP)</li>
+    <li> We obtained a messy dataset after 7 hours 20 minutes of scraping. This dataset was processed in file 
+    Data_understanding_and_processing. In this file we prepared final data set 'data1.csv'</li>
+    <li> The nice dataset was visualised in 'Visualisation.ipynd'</li>
+</ul>
 
+In our process, we focused on creating a functioning code in Python.  
+We were fortunate to work with a vast dataset with many variable. In the end, we focused on couple of them. 
+Mostly we plotted the variables with respect to price. Visualisation.ipynb provided variety of graphs in part (A). 
+Part (B) takes this analysis to another level and uses geopandas to visualise our data with the use of coordinates.
+Those coordinates were obtained by converting scraped addresses into coordinates by a function in geopandas.
+Our project has 3 branches that were eventually all merged into the Master branch.
+
+<br>
+PS: It would be our pleasure, if someone used our code in the future to collect data or at least used our dataset to learn about data processing. 
 
 ## Files explained
-
 ### Spider.ipynd
 It is a pitch of the project. It proves the concept that scraping from sreality.cz is possible and it identifies the variables to collect. It containts our proposal and it serves as basis for OOP_spider.ipynd
 
@@ -26,19 +41,20 @@ This is a jupyter notebook designed to aid our understanding of the dataset and 
 ### Visualisation.ipynd
 This file takes the prepared data and visualize its various underlying relationships (with usual matplotlib tools as well as with geospatial tools).
 
-Work in progress...
+### clean_data.csv
+This is our final dataset  that is analysed in Visualisation.ipynb 
 
-### links__.__.___.csv - files
-Each time we scrape links of individual properties we write the links into a csv file for a later verification and it is transparent on which days the links we collected
-
-### dataset.csv
+### scraped_dataset.csv
 This file contains our full dataset that was scraped on 27.4.2020 between 9am and 5pm
 
-### dataset_sample.csv
+### scraped_dataset_test.csv
 It was a test file to see that our data are written without any errors. It is dispensable (May be deleted).
 
 ### datasetview.csv
 Helps to show all variables and some values. It is used to better understand the dataset. It is dispensable (May be deleted).
+
+### links__.__.___.csv - files
+Each time we scrape links of individual properties we write the links into a csv file for a later verification and it is transparent on which days the links we collected
 
 ### TMMESTSKECASTI_P.json
 This is a json file with the geometry information about Prague districts.
@@ -51,6 +67,7 @@ This is a json file with the geometry information about Prague districts.
     <li> We have couple of proposed visualizitaions in the part (A), now it needs to be discussed (what do we really want to focus on, maybe we can skip some boring parts, or on the other hand decide to go more in depth in some parts... [during the Thuesday call] </li>
     <li> As soon as we discuss the above, the finalization phase comes - we need to tidy up the descriptions in the Visualization file. [together till Thursday] </li>
 </ul>
+
 <br>
 <footer>
 Authors: Markéta Malá & Josef Švec
