@@ -61,15 +61,6 @@ Each time we scrape links of individual properties we write the links into a csv
 This is a json file with the geometry information about Prague districts.
 
 
-## To - do
-
-<ul>
-    <li> Finish the (B) part of visualizations. [Markéta] </li>
-    <li> We have couple of proposed visualizitaions in the part (A), now it needs to be discussed (what do we really want to focus on, maybe we can skip some boring parts, or on the other hand decide to go more in depth in some parts... [during the Thuesday call] </li>
-    <li> As soon as we discuss the above, the finalization phase comes - we need to tidy up the descriptions in the Visualization file. [together till Thursday] </li>
-</ul>
-
-<br>
 <footer>
 Authors: Markéta Malá & Josef Švec
 </footer>
