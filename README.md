@@ -18,14 +18,15 @@ In this project we decided to look at realestate data from sreality.cz
     <li> The nice dataset was visualised in 'Visualisation.ipynd'</li>
 </ul>
 
+<p> 
 In our process, we focused on creating a functioning code in Python.  
 We were fortunate to work with a vast dataset with many variable. In the end, we focused on couple of them. 
 Mostly we plotted the variables with respect to price. Visualisation.ipynb provided variety of graphs in part (A). 
 Part (B) takes this analysis to another level and uses geopandas to visualise our data with the use of coordinates.
 Those coordinates were obtained by converting scraped addresses into coordinates by a function in geopandas.
 Our project has 3 branches that were eventually all merged into the Master branch.
+</p>
 
-<br>
 PS: It would be our pleasure, if someone used our code in the future to collect data or at least used our dataset to learn about data processing. 
 
 ## Files explained
